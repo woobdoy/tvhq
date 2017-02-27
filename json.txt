@@ -1,0 +1,447 @@
+Python 2.7.12 (v2.7.12:d33e0cf91556, Jun 27 2016, 15:19:22) [MSC v.1500 32 bit (Intel)] on win32
+Type "copyright", "credits" or "license()" for more information.
+>>> 
+============== RESTART: C:\Users\tvhq0\Desktop\testoTempRead.py ==============
+Clear 40.1 33% ENE 0.4
+2.7 40 0.00
+
+{
+  "response": {
+  "version":"0.1",
+  "termsofService":"http://www.wunderground.com/weather/api/d/terms.html",
+  "features": {
+  "geolookup": 1
+  ,
+  "conditions": 1
+  }
+	}
+		,	"location": {
+		"type":"CITY",
+		"country":"US",
+		"country_iso3166":"US",
+		"country_name":"USA",
+		"state":"CO",
+		"city":"Johnstown",
+		"tz_short":"MST",
+		"tz_long":"America/Denver",
+		"lat":"40.34000015",
+		"lon":"-104.91000366",
+		"zip":"80534",
+		"magic":"1",
+		"wmo":"99999",
+		"l":"/q/zmw:80534.1.99999",
+		"requesturl":"US/CO/Johnstown.html",
+		"wuiurl":"https://www.wunderground.com/US/CO/Johnstown.html",
+		"nearby_weather_stations": {
+		"airport": {
+		"station": [
+		{ "city":"Fort Collins", "state":"CO", "country":"US", "icao":"KFNL", "lat":"40.45000076", "lon":"-105.01000214" }
+		,{ "city":"Greeley", "state":"CO", "country":"US", "icao":"KGXY", "lat":"40.43999863", "lon":"-104.62999725" }
+		,{ "city":"Lemoore (Abandoned) Willett A", "state":"CO", "country":"US", "icao":"KLMO", "lat":"40.15999985", "lon":"-105.16000366" }
+		,{ "city":"Erie", "state":"CO", "country":"US", "icao":"KEIK", "lat":"40.00999832", "lon":"-105.05000305" }
+		]
+		}
+		,
+		"pws": {
+		"station": [
+		{
+		"neighborhood":"Country Acres",
+		"city":"Johnstown",
+		"state":"CO",
+		"country":"US",
+		"id":"KCOJOHNS18",
+		"lat":40.332584,
+		"lon":-104.920685,
+		"distance_km":1,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Johnstown Fire Department",
+		"city":"Johnstown",
+		"state":"CO",
+		"country":"US",
+		"id":"KCOJOHNS6",
+		"lat":40.336594,
+		"lon":-104.924271,
+		"distance_km":1,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Corbett Glen",
+		"city":"Johnstown",
+		"state":"CO",
+		"country":"US",
+		"id":"KCOJOHNS25",
+		"lat":40.339535,
+		"lon":-104.949783,
+		"distance_km":3,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"Pioneer ridge north",
+		"city":"Johnstown",
+		"state":"CO",
+		"country":"US",
+		"id":"KCOJOHNS26",
+		"lat":40.309383,
+		"lon":-104.908577,
+		"distance_km":3,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"Pioneer Ridge",
+		"city":"Johnstown",
+		"state":"CO",
+		"country":"US",
+		"id":"KCOJOHNS7",
+		"lat":40.308105,
+		"lon":-104.908844,
+		"distance_km":3,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"Mad Russian Milliken, Co, US",
+		"city":"Milliken",
+		"state":"CO",
+		"country":"US",
+		"id":"KCOMILLI4",
+		"lat":40.353134,
+		"lon":-104.870445,
+		"distance_km":3,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"Milliken Elementary",
+		"city":"Milliken",
+		"state":"CO",
+		"country":"US",
+		"id":"KCOMILLI7",
+		"lat":40.329708,
+		"lon":-104.866783,
+		"distance_km":3,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"Rocksbury Ridge",
+		"city":"Johnstown",
+		"state":"CO",
+		"country":"US",
+		"id":"KCOJOHNS23",
+		"lat":40.336105,
+		"lon":-104.967682,
+		"distance_km":4,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"Bogie Weather",
+		"city":"Johnstown",
+		"state":"CO",
+		"country":"US",
+		"id":"KCOJOHNS21",
+		"lat":40.403641,
+		"lon":-104.933960,
+		"distance_km":7,
+		"distance_mi":4
+		},
+		{
+		"neighborhood":"Wildwood Way",
+		"city":"Johnstown",
+		"state":"CO",
+		"country":"US",
+		"id":"KCOJOHNS15",
+		"lat":40.387329,
+		"lon":-104.976852,
+		"distance_km":7,
+		"distance_mi":4
+		},
+		{
+		"neighborhood":"Vinewood Way",
+		"city":"Johnstown",
+		"state":"CO",
+		"country":"US",
+		"id":"KCOJOHNS9",
+		"lat":40.388695,
+		"lon":-104.977142,
+		"distance_km":7,
+		"distance_mi":4
+		},
+		{
+		"neighborhood":"Thompson River Ranch",
+		"city":"Johnstown",
+		"state":"CO",
+		"country":"US",
+		"id":"KCOJOHNS20",
+		"lat":40.384926,
+		"lon":-104.984573,
+		"distance_km":8,
+		"distance_mi":4
+		},
+		{
+		"neighborhood":"Ursa Major Technologies",
+		"city":"Berthoud",
+		"state":"CO",
+		"country":"US",
+		"id":"KCOBERTH38",
+		"lat":40.286156,
+		"lon":-104.995560,
+		"distance_km":9,
+		"distance_mi":5
+		},
+		{
+		"neighborhood":"I 25 Access Road",
+		"city":"Mead",
+		"state":"CO",
+		"country":"US",
+		"id":"KCOMEAD11",
+		"lat":40.259998,
+		"lon":-104.978699,
+		"distance_km":10,
+		"distance_mi":6
+		},
+		{
+		"neighborhood":"Water Valley South",
+		"city":"Windsor",
+		"state":"CO",
+		"country":"US",
+		"id":"KCOWINDS1",
+		"lat":40.438202,
+		"lon":-104.893898,
+		"distance_km":11,
+		"distance_mi":6
+		},
+		{
+		"neighborhood":"Water Valley South",
+		"city":"Windsor",
+		"state":"CO",
+		"country":"US",
+		"id":"KCOWINDS29",
+		"lat":40.438293,
+		"lon":-104.894058,
+		"distance_km":11,
+		"distance_mi":6
+		},
+		{
+		"neighborhood":"Loveland Ranch",
+		"city":"Loveland",
+		"state":"CO",
+		"country":"US",
+		"id":"KCOLOVEL120",
+		"lat":40.348717,
+		"lon":-105.041908,
+		"distance_km":11,
+		"distance_mi":6
+		},
+		{
+		"neighborhood":"Margil Farms",
+		"city":"Mead",
+		"state":"CO",
+		"country":"US",
+		"id":"KCOMEAD12",
+		"lat":40.263180,
+		"lon":-104.997200,
+		"distance_km":11,
+		"distance_mi":6
+		},
+		{
+		"neighborhood":"Steeplechase",
+		"city":"Windsor",
+		"state":"CO",
+		"country":"US",
+		"id":"KCOWINDS16",
+		"lat":40.439045,
+		"lon":-104.947250,
+		"distance_km":11,
+		"distance_mi":6
+		},
+		{
+		"neighborhood":"Water Valley Southwest",
+		"city":"Windsor",
+		"state":"CO",
+		"country":"US",
+		"id":"KCOWINDS19",
+		"lat":40.442734,
+		"lon":-104.897865,
+		"distance_km":11,
+		"distance_mi":6
+		},
+		{
+		"neighborhood":"Rural Berthoud CO, Weld County, Little Thompson and WCR 3",
+		"city":"Berthoud",
+		"state":"CO",
+		"country":"US",
+		"id":"KCOBERTH43",
+		"lat":40.294819,
+		"lon":-105.037880,
+		"distance_km":11,
+		"distance_mi":7
+		},
+		{
+		"neighborhood":"Arrowhead",
+		"city":"Greeley",
+		"state":"CO",
+		"country":"US",
+		"id":"KCOGREEL50",
+		"lat":40.373978,
+		"lon":-104.771500,
+		"distance_km":12,
+		"distance_mi":7
+		},
+		{
+		"neighborhood":"Ashton Estates",
+		"city":"Greeley",
+		"state":"CO",
+		"country":"US",
+		"id":"KCOGREEL55",
+		"lat":40.387005,
+		"lon":-104.777199,
+		"distance_km":12,
+		"distance_mi":7
+		},
+		{
+		"neighborhood":"Dos Rios IP",
+		"city":"Greeley",
+		"state":"CO",
+		"country":"US",
+		"id":"KCOGREEL20",
+		"lat":40.354721,
+		"lon":-104.763695,
+		"distance_km":12,
+		"distance_mi":7
+		},
+		{
+		"neighborhood":"GAJ @ West T-Bone Ranch",
+		"city":"Greeley",
+		"state":"CO",
+		"country":"US",
+		"id":"KCOGREEL22",
+		"lat":40.386688,
+		"lon":-104.772621,
+		"distance_km":12,
+		"distance_mi":7
+		},
+		{
+		"neighborhood":"CoCedar",
+		"city":"Greeley",
+		"state":"CO",
+		"country":"US",
+		"id":"KCOGREEL58",
+		"lat":40.412189,
+		"lon":-104.792740,
+		"distance_km":12,
+		"distance_mi":7
+		},
+		{
+		"neighborhood":"",
+		"city":"Loveland",
+		"state":"CO",
+		"country":"US",
+		"id":"MD5856",
+		"lat":40.388500,
+		"lon":-105.047997,
+		"distance_km":12,
+		"distance_mi":7
+		}
+		]
+		}
+		}
+	}
+  ,	"current_observation": {
+		"image": {
+		"url":"http://icons.wxug.com/graphics/wu2/logo_130x80.png",
+		"title":"Weather Underground",
+		"link":"http://www.wunderground.com"
+		},
+		"display_location": {
+		"full":"Johnstown, CO",
+		"city":"Johnstown",
+		"state":"CO",
+		"state_name":"Colorado",
+		"country":"US",
+		"country_iso3166":"US",
+		"zip":"80534",
+		"magic":"1",
+		"wmo":"99999",
+		"latitude":"40.34000015",
+		"longitude":"-104.91000366",
+		"elevation":"1479.2"
+		},
+		"observation_location": {
+		"full":"Country Acres, Johnstown, Colorado",
+		"city":"Country Acres, Johnstown",
+		"state":"Colorado",
+		"country":"US",
+		"country_iso3166":"US",
+		"latitude":"40.332584",
+		"longitude":"-104.920685",
+		"elevation":"4862 ft"
+		},
+		"estimated": {
+		},
+		"station_id":"KCOJOHNS18",
+		"observation_time":"Last Updated on February 26, 1:34 PM MST",
+		"observation_time_rfc822":"Sun, 26 Feb 2017 13:34:09 -0700",
+		"observation_epoch":"1488141249",
+		"local_time_rfc822":"Sun, 26 Feb 2017 13:35:20 -0700",
+		"local_epoch":"1488141320",
+		"local_tz_short":"MST",
+		"local_tz_long":"America/Denver",
+		"local_tz_offset":"-0700",
+		"weather":"Clear",
+		"temperature_string":"40.1 F (4.5 C)",
+		"temp_f":40.1,
+		"temp_c":4.5,
+		"relative_humidity":"33%",
+		"wind_string":"Calm",
+		"wind_dir":"ENE",
+		"wind_degrees":68,
+		"wind_mph":0.4,
+		"wind_gust_mph":"2.7",
+		"wind_kph":0,
+		"wind_gust_kph":"4.3",
+		"pressure_mb":"1011",
+		"pressure_in":"29.85",
+		"pressure_trend":"-",
+		"dewpoint_string":"13 F (-10 C)",
+		"dewpoint_f":13,
+		"dewpoint_c":-10,
+		"heat_index_string":"NA",
+		"heat_index_f":"NA",
+		"heat_index_c":"NA",
+		"windchill_string":"40 F (4 C)",
+		"windchill_f":"40",
+		"windchill_c":"4",
+		"feelslike_string":"40 F (4 C)",
+		"feelslike_f":"40",
+		"feelslike_c":"4",
+		"visibility_mi":"10.0",
+		"visibility_km":"16.1",
+		"solarradiation":"--",
+		"UV":"6","precip_1hr_string":"0.00 in ( 0 mm)",
+		"precip_1hr_in":"0.00",
+		"precip_1hr_metric":" 0",
+		"precip_today_string":"0.00 in (0 mm)",
+		"precip_today_in":"0.00",
+		"precip_today_metric":"0",
+		"icon":"clear",
+		"icon_url":"http://icons.wxug.com/i/c/k/clear.gif",
+		"forecast_url":"http://www.wunderground.com/US/CO/Johnstown.html",
+		"history_url":"http://www.wunderground.com/weatherstation/WXDailyHistory.asp?ID=KCOJOHNS18",
+		"ob_url":"http://www.wunderground.com/cgi-bin/findweather/getForecast?query=40.332584,-104.920685",
+		"nowcast":""
+	}
+}
+
+--------------------------------------------------
+Clear 40.1 33 ENE 0.4
+2.7 40 0.00
+--------------------------------------------------
+Weather       = Clear
+Temperature   = 40.1
+Humidity      = 33
+Wind Dir      = ENE
+Wind Speed    = 0.4
+Wind Gusts    = 2.7
+Feels Like    = 40
+Precipitation = 0.00
+--------------------------------------------------
+>>> 
